@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="#FFFFFFFF">
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="CARD 01"
+		android:textColor="#FF2196F3"
+		android:textStyle="bold"
+		android:typeface="monospace"
+		android:id="@+id/detail_layout_num"/>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="artist"
+			android:textSize="25sp"
+			android:textColor="#FF000000"
+			android:id="@+id/detail_layout_word"/>
+
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_marginLeft="10dp"
+			app:srcCompat="@drawable/ic_paym_dark"
+			android:id="@+id/detail_layout_speak"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:text="/'a:tist/"
+			android:layout_marginLeft="10dp"
+			android:textSize="16sp"
+			android:gravity="center"
+			android:textColor="#FF000000"
+			android:id="@+id/detail_layout_phonetic_transcription"/>
+
+	</LinearLayout>
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="释义"
+		android:background="#FF90A4AE"
+		android:textSize="18sp"
+		android:textColor="#FF000000"/>
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="n.艺术家,美术家"
+		android:background="#FFFFFFFF"
+		android:textColor="#FF000000"
+		android:shadowDy="2.0"
+		android:shadowDx="2.0"
+		android:shadowRadius="2.0"
+		android:id="@+id/detail_layout_explain"/>
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="词组"
+		android:background="#FF90A4AE"
+		android:textSize="18sp"
+		android:textColor="#FF000000"/>
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="great artist"
+		android:textColor="#FF000000"
+		android:id="@+id/detail_layout_groups"/>
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="例句"
+		android:background="#FF90A4AE"
+		android:textSize="18sp"
+		android:textColor="#FF000000"/>
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="80dp"
+			android:text="He is an artist.And his name is Xu BeiHong,who is an great artist  of China,His works has Six Horses and he is good at draw the horse."
+			android:textColor="#FF000000"
+			android:id="@+id/detail_layout_graphics"/>
+
+	</ScrollView>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:text="添加到生词本"
+			android:textColor="#FF000000"
+			android:textSize="14sp"
+			android:gravity="center_vertical"/>
+
+		<CheckBox
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+
